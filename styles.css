@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #32e0c4, #0d7377);
+    /* background: linear-gradient(to right, #e7e7de, #008891); */
+    /* background: linear-gradient(to right, #e7e7de, #32e0c4); */
+}
+
+.sheet {
+    width: 800px;
+    height: 1450px;
+    background: #eeeeee;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 4fr;
+    grid-template-areas: "main-banner main-banner" "info-left info-center";
+}
+
+.main-banner {
+    background: #212121;
+    color: #eeeeee;
+    display: grid;
+    grid-area: main-banner;
+    grid-template-areas: "img info-basica";
+    height: 270px;
+}
+
+.main-banner .img {
+    grid-area: img;
+    text-align: center;
+    align-items: center;
+    width: 210px;
+    height: 210px;
+    padding-top: 20px;
+    margin: 20px;
+}
+
+.main-banner .img .img-profile {
+    background: url('img/pic.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: 9px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.main-banner .info-basica {
+    grid-area: info-basica;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    word-break: break-word;
+}
+
+.main-banner .info-basica hr {
+    border-bottom: solid 3px #7eedf1;
+    border-radius: 10px;
+    width: 95%;
+    justify-content: center;
+}
+
+.main-banner .info-basica h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.main-banner .info-basica h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.main-banner .info-basica .text {
+    width: 80%;
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: justify;
+}
+
+.info-left {
+    background: #212121;
+    color: #eeeeee;
+    width: 250px;
+    height: 1180px;
+    padding: 0 20px;
+    padding-top: 10px;
+    grid-area: info-left;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+    letter-spacing: 3px;
+    color: #7eedf1;
+    text-transform: uppercase;
+}
+
+.title hr {
+    border-bottom: solid 3px #7eedf1;
+    border-radius: 10px;
+    width: 25%;
+    margin-top: 5px;
+    margin-left: 160px;
+    justify-content: right;
+}
+
+.next {
+    padding-top: 25px;
+    margin-top: 25px;
+}
+
+.contain .list-contact {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.contain .list-contact .icon-contact {
+    width: 50px;
+    height: 50px;
+    background: #eeeeee;
+    font-size: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.contact i {
+    color: #0d7377;
+}
+
+.contain .list-contact .text-contact {
+    width: calc(100% - 50px);
+    font-size: 13px;
+    padding-top: 1px;
+    word-break: break-word;
+}
+
+.info-left .idiomas,
+.info-left .hoobies {
+    padding-top: 20px;
+}
+
+.idiomas ul,
+.hoobies ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list-proyects ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.list-proyects .list-contact .text-contact {
+    font-size: 12px;
+    text-align: justify;
+    margin-top: 1px;
+}
+
+.list-proyects .list-contact .text-contact p {
+    font-size: 10px;
+    color: #292b2f;
+}
+
+.idiomas .list-contact,
+.hoobies .list-contact {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.idiomas .list-contact,
+.list-proyects .list-contact {
+    background: #eeeeee;
+    color: #0d7377;
+}
+
+.idiomas .list-contact .icon-contact,
+.hoobies .list-contact .icon-contact,
+.list-proyects .list-contact .icon-contact {
+    font-size: 24px;
+}
+
+.idiomas .list-contact .text-contact,
+.hoobies .list-contact .text-contact {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+a {
+    color: #eeeeee;
+}
+
+.text a {
+    color: #0d7377;
+}
+
+.hoobies .list-contact {
+    border: 2px solid #eeeeee;
+    color: #7eedf1;
+}
+
+.hoobies .list-contact:hover {
+    background: #eeeeee;
+    color: #0d7377;
+}
+
+.info-center {
+    grid-area: info-center;
+    padding: 20px;
+    color: #292b2f;
+}
+
+.space-top {
+    padding-top: 20px;
+}
+
+.space-down {
+    padding-bottom: 20px;
+}
+
+.title-main h6 {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+    letter-spacing: 3px;
+    color: #0d7377;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+}
+
+.title-main hr {
+    border-bottom: solid 3px #0d7377;
+    border-radius: 10px;
+    width: 15%;
+    margin-top: 1px;
+    margin-left: 420px;
+    justify-self: right;
+    margin-bottom: 15px;
+}
+
+.info-center .estudio .list-estudio {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.info-center .estudio .list-estudio .date {
+    width: 125px;
+    color: #0d7377;
+}
+
+.info-center .estudio .list-estudio .info {
+    width: calc(100% - 125px);
+    padding-left: 25px;
+    position: relative;
+}
+
+.info-center .estudio .list-estudio .info:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    background: #0d7377;
+    border-radius: 50%;
+}
+
+.info-center .estudio .list-estudio .info:after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 95%;
+    background: #0d7377;
+    border-radius: 50%;
+}
+
+.info-center .estudio .list-estudio .info-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #0d7377;
+}
+
+.info-center .estudio .list-estudio .course {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-right: 5px;
+}
+
+.info-center .estudio .list-estudio .course-sub {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.info-center .estudio .list-estudio .info-sub {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.info-center .estudio .list-estudio .info-text {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.info-center .skills {
+    margin-top: 25px;
+}
+
+.skills .help {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.skills .help p {
+    margin-left: 20px;
+}
+
+.skills .help .A:before,
+.title-skills .text .A:before {
+    content: "A";
+    font-size: 10px;
+    text-align: center;
+    color: #eeeeee;
+    background: #00587a;
+}
+
+.skills .help .A:before {
+    font-size: 14px;
+}
+
+.skills .help .I:before,
+.title-skills .text .I:before {
+    content: "I";
+    font-size: 10px;
+    text-align: center;
+    color: #292b2f;
+    background: #fea82f;
+}
+
+.skills .help .I:before {
+    font-size: 14px;
+}
+
+.skills .help .B:before,
+.title-skills .text .B:before {
+    content: "B";
+    font-size: 10px;
+    text-align: center;
+    color: #292b2f;
+    background: #9ede73;
+}
+
+.skills .help .B:before {
+    font-size: 14px;
+}
+
+.skills .help p:before {
+    content: " ";
+    position: absolute;
+    margin-top: 2px;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.title-skills .text p:before {
+    content: " ";
+    position: absolute;
+    margin-right: 5px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+}
+
+.skills .row,
+.proyectos .row {
+    width: 500px;
+    height: 140px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills .row .col,
+.proyectos .row .col {
+    width: 240px;
+    height: 140px;
+    margin-left: 10px;
+    margin-right: 5px;
+    display: flex;
+}
+
+.title-skills h6 {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    color: #0d7377;
+    text-transform: uppercase;
+}
+
+.title-proyects h6 {
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    color: #0d7377;
+    text-transform: uppercase;
+}
+
+.title-proyects small {
+    font-size: 8px;
+    line-height: 5px;
+    font-style: italic;
+}
+
+.col .icon {
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.skills .row .col .text,
+.proyectos .row .col .text {
+    font-weight: bold;
+    font-size: 9px;
+    text-align: justify;
+    margin-left: 5px;
+}
+
+.skills .row .col .text p {
+    margin-bottom: 2px;
+}
+
+.foo {
+    background-color: #292b2f;
+    color: #7eedf1;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* .skills .row .col i {
+    font-size: 70px;
+} */

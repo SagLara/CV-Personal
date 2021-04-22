@@ -44,7 +44,7 @@ body {
 }
 
 .main-banner .img .img-profile {
-    background: url('img/pic.jpg') no-repeat;
+    background: url('../img/pic.jpg') no-repeat;
     background-size: cover;
     position: relative;
     margin-left: 9px;

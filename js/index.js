@@ -1,5 +1,5 @@
 function carga() {
-    var archivoTxt = new XMLHttpRequest();
+    /* var archivoTxt = new XMLHttpRequest();
     var fileRuta = "../utils/back-obj.txt";
 
     archivoTxt.open("GET", fileRuta, false);
@@ -8,5 +8,5 @@ function carga() {
     var txt = archivoTxt.responseText;
 
     var objetivo = document.getElementById('objetivo');
-    objetivo.innerHTML = txt;
+    objetivo.innerHTML = txt; */
 }

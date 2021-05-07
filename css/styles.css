@@ -152,7 +152,7 @@ body {
 
 .contain .list-contact .text-contact {
     width: calc(100% - 50px);
-    font-size: 13px;
+    font-size: 14px;
     padding-top: 1px;
     word-break: break-word;
 }
@@ -217,7 +217,7 @@ body {
     margin-top: 5px;
 }
 
-a {
+.text-contact a {
     color: #eeeeee;
 }
 
@@ -305,6 +305,10 @@ a {
     height: 95%;
     background: #0d7377;
     border-radius: 50%;
+}
+
+.course a {
+    color: #0d7377;
 }
 
 .info-center .estudio .list-estudio .info-title {
@@ -412,7 +416,7 @@ a {
 .skills .row,
 .proyectos .row {
     width: 500px;
-    height: 140px;
+    height: 120px;
     margin-bottom: 12px;
     border-radius: 15px;
     display: flex;
@@ -424,7 +428,7 @@ a {
 .skills .row .col,
 .proyectos .row .col {
     width: 240px;
-    height: 140px;
+    height: 120px;
     margin-left: 10px;
     margin-right: 5px;
     display: flex;
@@ -432,13 +436,14 @@ a {
 
 .title-skills h6 {
     font-weight: bold;
-    font-size: 12px;
-    text-align: right;
+    font-size: 13px;
+    text-align: center;
     letter-spacing: 3px;
     margin-bottom: 5px;
     margin-left: 5px;
     color: #0d7377;
     text-transform: uppercase;
+    word-break: break-word;
 }
 
 .title-proyects h6 {
@@ -479,6 +484,66 @@ a {
     color: #7eedf1;
     text-align: center;
     padding: 20px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-35 {
+    margin-top: 35px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pb-10 {
+    padding-bottom: 15px;
 }
 
 

@@ -89,6 +89,10 @@ body {
     text-align: justify;
 }
 
+.main-banner .info-basica .text-obj {
+    color: #eeeeee;
+}
+
 .info-left {
     background: #212121;
     color: #eeeeee;
@@ -409,7 +413,7 @@ a {
 .proyectos .row {
     width: 500px;
     height: 140px;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     border-radius: 15px;
     display: flex;
     flex-direction: row;

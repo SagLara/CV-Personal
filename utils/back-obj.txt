@@ -1,0 +1,1 @@
+Soy estudiante de último semestre de ingeniería de sistemas, busco obtener experiencia en el campo de la industria del Backend, cuento con bases en análisis de datos en Python, haciendo uso de librerías como Keras, Pandas, Numpy, TensorFlow, entre otras. Además, conocimientos bien fundamentados en bases de datos, SQL y PL/SQL.

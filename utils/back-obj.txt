@@ -1,1 +1,2 @@
-Soy estudiante de último semestre de ingeniería de sistemas, busco obtener experiencia en el campo de la industria del Backend, cuento con bases en análisis de datos en Python, haciendo uso de librerías como Keras, Pandas, Numpy, TensorFlow, entre otras. Además, conocimientos bien fundamentados en bases de datos, SQL y PL/SQL.
+Soy estudiante de último semestre de ingeniería de sistemas, con habilidades desarrolladas en bases de datos, sintaxis SQL, Postgres, Oracle, MySQL y PL/SQL, además, con bases de análisis de datos en Python haciendo uso de librerías para ciencia de datos.
+Por otro lado, buena disposición a la crítica, crecimiento personal, abierto a la comunicación, asertividad y trabajo en equipo.

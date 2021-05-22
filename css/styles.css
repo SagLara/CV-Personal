@@ -217,12 +217,38 @@ body {
     margin-top: 5px;
 }
 
-.text-contact a {
+.text-contact a:link {
     color: #eeeeee;
 }
 
-.text a {
+.text-contact a:visited {
+    color: #eeeeee;
+}
+
+.text-contact a:hover {
+    color: #7eedf1;
+    transition: color 0.5s;
+}
+
+.text-contact a:active {
+    color: yellow;
+}
+
+.text a:link {
     color: #0d7377;
+}
+
+.text a:visited {
+    color: #0d7377;
+}
+
+.text a:hover {
+    color: crimson;
+    transition: color 0.5s;
+}
+
+.text a:active {
+    color: yellow;
 }
 
 .hoobies .list-contact {
@@ -307,8 +333,21 @@ body {
     border-radius: 50%;
 }
 
-.course a {
+.course a:link {
     color: #0d7377;
+}
+
+.course a:visited {
+    color: #0d7377;
+}
+
+.course a:hover {
+    color: crimson;
+    transition: color 0.5s;
+}
+
+.course a:active {
+    color: yellow;
 }
 
 .info-center .estudio .list-estudio .info-title {
@@ -486,6 +525,23 @@ body {
     padding: 20px;
 }
 
+.foo a:link {
+    color: #eeeeee;
+}
+
+.foo a:visited {
+    color: #eeeeee;
+}
+
+.foo a:hover {
+    color: crimson;
+    transition: color 0.5s;
+}
+
+.foo a:active {
+    color: yellow;
+}
+
 .mt-50 {
     margin-top: 50px;
 }
@@ -508,6 +564,10 @@ body {
 
 .mt-20 {
     margin-top: 20px;
+}
+
+.mt-15 {
+    margin-top: 15px;
 }
 
 .mt-10 {

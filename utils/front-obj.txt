@@ -1,1 +1,7 @@
-Soy un desarrollador web apasionado por el Frontend con experiencia en desarrollo de interfaces, diseño de usuario y accesibilidad. Busco obtener experiencia en otros campos de la industria como es el Backend,colaborando en el mantenimiento, sostenibilidad y soporte de los servidores enfocado hacia la escalabilidad en la web.
+Soy un desarrollador web apasionado por el Frontend con experiencia en desarrollo de interfaz gráfica de usuario, diseño de usuario y accesibilidad. 
+estudiante de último semestre de ingeniería de sistemas, con habilidades desarrolladas en HTML, CSS, JavaScript, GridLayout FlexBox manejo de frameworks y librerías
+como Angular, Flask, Bootstrap, Nebular, jQuery, además conocimientos de bases de datos, sintaxis SQL, NodeJs, Nest JS.
+Por último, buena disposición a la crítica, crecimiento personal, abierto a la comunicación, asertividad y trabajo en equipo.
+
+Soy un desarrollador web apasionado por el Frontend con experiencia en desarrollo de interfaz gráfica de usuario, manejo de API's y accesibilidad, estudiante de último semestre de ingeniería de sistemas con habilidades desarrolladas en HTML, CSS, JavaScript/Typescript,
+                    manejo de frameworks y librerías como Angular, Flask, Bootstrap, Nebular, jQuery,conocimientos de bases de datos, NodeJs, Nest JS. Buena disposición a la crítica, crecimiento personal, abierto a la comunicación y trabajo en equipo.

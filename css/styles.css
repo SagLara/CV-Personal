@@ -44,7 +44,7 @@ body {
 }
 
 .main-banner .img .img-profile {
-    background: url('../img/pic.jpg') no-repeat;
+    background: url('../img/pic2.jpg') no-repeat;
     background-size: cover;
     position: relative;
     margin-left: 9px;
@@ -82,10 +82,10 @@ body {
 }
 
 .main-banner .info-basica .text {
-    width: 80%;
+    width: 85%;
     margin-top: 20px;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 11px;
+    line-height: 16px;
     text-align: justify;
 }
 

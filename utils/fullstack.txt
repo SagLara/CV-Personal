@@ -1,0 +1,3 @@
+                    Soy un desarrollador web apasionado por el Frontend con experiencia en desarrollo de interfaces, 
+                    diseño de usuario y accesibilidad. Busco obtener experiencia en otros campos de la industria como es el Backend,
+                    colaborando en el mantenimiento, sostenibilidad y soporte de los servidores enfocado hacia la escalabilidad en la web.
